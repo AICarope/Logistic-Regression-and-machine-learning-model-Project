@@ -29,24 +29,31 @@ You can access the materials by clicking
   -  **Demographics:** Age, Income, Country
 
 
-##📈 Key Insights from Exploratory Data Analysis (EDA)
--Seniors (59+) make up 41.25% of the dataset.
--Smoking & Age show a strong correlation (0.81).
--Cholesterol & Heart Attack Risk correlation is weak (0.04).
--Diabetes is present in 64.9% of the dataset but has weak correlation (0.03).
--49.9% of females in the dataset are obese.
--Physical Activity: Most engage in 1-3 days/week of exercise.
--Sedentary Behavior: 25% of female smokers sit for 9+ hours/day.
--Sleep Patterns: The majority sleep between 4-10 hours/day, with 8 hours being most common.
--Highest % of female smokers by region:
-🌍 Africa (68.8%)
-🌍 Europe (67.7%)
-🌍 Asia/South America (65.7%)
+## 📈 Key Insights from Exploratory Data Analysis (EDA)
 
-Top 3 countries with most female smokers:
--🇮🇹 Italy (72.1%)
--🇿🇦 South Africa (70.9%)
--🇻🇳 Vietnam (70.3%)
+### **Demographics & Risk Distribution**
+-  **Seniors (59+)** make up **41.25%** of the dataset.
+-  **Smoking & Age** show a **strong correlation (0.81)**.
+-  **Cholesterol & Heart Attack Risk** correlation is **weak (0.04)**.
+-  **Diabetes is present in 64.9%** of the dataset but has a **weak correlation (0.03)**.
+-  **Obesity:** **49.9%** of females in the dataset are classified as **obese**.
+
+### **Lifestyle & Health Patterns**
+-  **Physical Activity:** Most engage in **1-3 days/week** of exercise.
+-  **Sedentary Behavior:** **25% of female smokers** sit for **9+ hours/day**.
+-  **Sleep Patterns:** The majority sleep between **4-10 hours/day**, with **8 hours** being most common.
+
+### **Geographic Trends**
+- **Highest % of Female Smokers by Continent:**
+  -  **Africa:** **68.8%**
+  -  **Europe:** **67.7%**
+  -  **Asia/South America:** **65.7%**
+
+- **Top 3 Countries with Most Female Smokers:**
+  - 🇮🇹 **Italy:** **72.1%**
+  - 🇿🇦 **South Africa:** **70.9%**
+  - 🇻🇳 **Vietnam:** **70.3%**
+
 
 ##🤖 Machine Learning Model Performance
 
