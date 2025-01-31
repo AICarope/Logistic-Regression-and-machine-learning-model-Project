@@ -8,9 +8,9 @@ The model is evaluated using Python, applying metrics such as accuracy, precisio
 ## Materials
 You can access the materials by clicking
 
--[Python Notebook: Exploratory Data Analysis(EDA)](   )
+-[Python Notebook: Exploratory Data Analysis(EDA)](https://github.com/AICarope/Logistic-Regression-and-machine-learning-model-Project/blob/main/Project%20Women%20Heart%20Attack/2_Women_EDA.ipynb)
 
--[Python Notebook: Machine Lerning (ML)](   )
+-[Python Notebook: Machine Lerning (ML)](https://github.com/AICarope/Logistic-Regression-and-machine-learning-model-Project/blob/main/Project%20Women%20Heart%20Attack/3_Women_ML.ipynb)
 
 
 ## 📊 Project Visualization
