@@ -1,5 +1,5 @@
 # Capstone Project: Heart Attack Risk Prediction in Female Populations
-🚧 In Progress
+##🚧 In Progress
 
 Developing a **Logistic Regression machine learning model to predict heart attack risk in female populations**. The focus is on identifying key predictive factors such as age, cholesterol, blood pressure, smoking, obesity, and stress and understanding their interrelationships.
 Using a dataset from Kaggle, containing 8,763 patient entries, with 2,652 female patients, the goal is to accurately predict heart attack risk based on health metrics, lifestyle factors, and medical history.
@@ -7,14 +7,17 @@ The model is evaluated using Python, applying metrics such as accuracy, precisio
 
 ## Materials
 You can access the materials by clicking
+
 -[Python Notebook: Exploratory Data Analysis(EDA)](   )
+
 -[Python Notebook: Machine Lerning (ML)](   )
 
 
-📊 Project Visualization
-![image](https://github.com/user-attachments/assets/43b4979f-ea8a-435c-b2c2-84231939164c)
+## 📊 Project Visualization
+<img src="https://github.com/user-attachments/assets/43b4979f-ea8a-435c-b2c2-84231939164c" alt="Graph" width="500"/>
 
-📂 Dataset Information
+
+##📂 Dataset Information
 Dataset Name: female_heart_df2
 Source: [Kaggle] (https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)
 
@@ -30,9 +33,9 @@ X = Predictor Variables:
 
 -**Demographics:** Age, Income, Country
 
-📈 Key Insights from Exploratory Data Analysis (EDA)
+##📈 Key Insights from Exploratory Data Analysis (EDA)
 -Seniors (59+) make up 41.25% of the dataset.
--**Smoking & Age show a strong correlation (0.81).**
+-Smoking & Age show a strong correlation (0.81).
 -Cholesterol & Heart Attack Risk correlation is weak (0.04).
 -Diabetes is present in 64.9% of the dataset but has weak correlation (0.03).
 -49.9% of females in the dataset are obese.
@@ -49,13 +52,13 @@ Top 3 countries with most female smokers:
 -🇿🇦 South Africa (70.9%)
 -🇻🇳 Vietnam (70.3%)
 
-🤖 Machine Learning Model Performance
-
-🔍 Best Model Selection
+##🤖 Machine Learning Model Performance
 
 Class 1 = Heart Attack Risk
+Class 0 = No Heart Attack Risk
 
 ✅ Best Model: Random Forest with SMOTE
+
 ## 🤖 Machine Learning Model Performance
 
 | 🏷️ Model                                     | 📊 Accuracy | 🔍 Recall (Class 1) | 🎯 F1-Score (Class 1) | 📌 Interpretation |
@@ -98,7 +101,7 @@ Best GridSearch Random Forest if recall (0.68) is prioritized, but has slightly 
 | **Diabetes**                 | 5.51%            |
 
 #The top feature in dataset is Stress Level (7.33%), followed by Sleep Hours Per Day (6.18%) and Sedentary Hours Per Day (6.17%).
-# Smoking is missing from the top-ranked features, meaning it was not selected as one of the most important predictors by  model.
+#Smoking is missing from the top-ranked features, meaning it was not selected as one of the most important predictors by  model.
 #The lowest-ranked important features (Obesity: 5.56% and Diabetes: 5.51%) still have higher importance scores than Smoking.
 #Yes, Smoking is correlated with Age, but it was not a direct driver of heart attack risk
 #Smoking did not independently contribute enough predictive value compared to other health factors (e.g., Stress, Cholesterol, Sleep, Sedentary Behavior).
@@ -108,8 +111,11 @@ Best GridSearch Random Forest if recall (0.68) is prioritized, but has slightly 
 
 📜 Conclusions & Recommendations
 ✅ Key Risk Factors: Stress Level, Sleep Hours per Day, Sedentary Hours Per Day, Previous Hert Probles.
+
 ✅ Lifestyle Modifications: Increasing physical activity, reducing sedentary hours, and managing stress can reduce heart attack risk.
+
 ✅ Further Research Needed: Explore genetic predisposition, diet, and medication use as additional predictors.
+
 ✅ Machine Learning Recommendations: Random Forest with SMOTE is the best-performing model. Further hyperparameter tuning could improve performance.
 
 📌 Next Steps
