@@ -62,7 +62,9 @@ Class 0 = No Heart Attack Risk
 
 ✅ Best Model: Random Forest with SMOTE
 
+
 ## 🤖 Machine Learning Model Performance
+
 
 | 🏷️ Model                                     | 📊 Accuracy | 🔍 Recall (Class 1) | 🎯 F1-Score (Class 1) | 📌 Interpretation |
 |----------------------------------------------|------------|---------------------|----------------------|----------------------------------------------------------------|
@@ -71,7 +73,7 @@ Class 0 = No Heart Attack Risk
 | **Decision Tree**                            | 0.6535 | 0.06 | -- | Slight recall improvement but not significantly better than Logistic Regression. |
 | **Random Forest with SMOTE** ✅              | **0.6520** | **0.67** | **0.66** | Best model; SMOTE balancing improved recall significantly. |
 | **Best GridSearch Random Forest**           | 0.6404 | 0.68 | -- | Best recall but lower accuracy; useful but less optimal. |
-| **XGBoost** ❌                               | 0.5932 | 0.16 | -- | Worst model; low accuracy and recall. |
+| **XGBoost**                                  | 0.5932 | 0.16 | -- | Worst model; low accuracy and recall. |
 | **Tuned Random Forest**                     | 0.6629 | 0.03 | -- | Comparable accuracy to Logistic Regression but very low recall. |
 | **Stacking Model**                           | **0.6681** | 0.03 | 0.05 | Higher accuracy but recall is too low to be useful. |
 
@@ -103,23 +105,39 @@ Best GridSearch Random Forest if recall (0.68) is prioritized, but has slightly 
 | **Obesity**                  | 5.56%            |
 | **Diabetes**                 | 5.51%            |
 
-#The top feature in dataset is Stress Level (7.33%), followed by Sleep Hours Per Day (6.18%) and Sedentary Hours Per Day (6.17%).
-#Smoking is missing from the top-ranked features, meaning it was not selected as one of the most important predictors by  model.
-#The lowest-ranked important features (Obesity: 5.56% and Diabetes: 5.51%) still have higher importance scores than Smoking.
-#Yes, Smoking is correlated with Age, but it was not a direct driver of heart attack risk
-#Smoking did not independently contribute enough predictive value compared to other health factors (e.g., Stress, Cholesterol, Sleep, Sedentary Behavior).
-#Smoking may not directly impact heart attack risk as much as Stress Level, Cholesterol, or Family History.
-#The dataset was transformed with PCA, which combined Smoking with other features into principal components.
-#In SHAP Correlation only shows linear relationships, but Random Forest and tree-based models capture complex, nonlinear interactions.
+## 🔍 Key Findings on Feature Importance
 
-📜 Conclusions & Recommendations
-✅ Key Risk Factors: Stress Level, Sleep Hours per Day, Sedentary Hours Per Day, Previous Hert Probles.
+- 📊 **Top Predictive Features in the Dataset**:
+  - **Stress Level** (**7.33%**) is the most important predictor.
+  - **Sleep Hours Per Day** (**6.18%**) and **Sedentary Hours Per Day** (**6.17%**) follow closely.
+  
+- 🚭 **Smoking is Not a Key Predictor**:
+  - Smoking was **not selected** as a top-ranked feature by the model.
+  - The lowest-ranked features, **Obesity (5.56%)** and **Diabetes (5.51%)**, still had **higher importance scores** than Smoking.
+  - While **Smoking correlates with Age**, it was **not a direct driver** of heart attack risk.
+  - **Other health factors (e.g., Stress, Cholesterol, Sleep, Sedentary Behavior)** contributed more predictive value.
 
-✅ Lifestyle Modifications: Increasing physical activity, reducing sedentary hours, and managing stress can reduce heart attack risk.
+- 🔬 **Why Smoking Was Not a Key Feature**:
+  - The dataset was transformed using **PCA**, which combined **Smoking** with other features into **principal components**.
+  - **SHAP Correlation** measures **linear relationships**, while **Random Forest & tree-based models** capture **complex, nonlinear interactions**.
 
-✅ Further Research Needed: Explore genetic predisposition, diet, and medication use as additional predictors.
+---
 
-✅ Machine Learning Recommendations: Random Forest with SMOTE is the best-performing model. Further hyperparameter tuning could improve performance.
+## 📜 **Conclusions & Recommendations**  
+
+✅ **Key Risk Factors**:  
+**Stress Level, Sleep Hours Per Day, Sedentary Hours Per Day, Previous Heart Problems.**  
+
+✅ **Lifestyle Modifications**:  
+Increasing **physical activity**, reducing **sedentary hours**, and **managing stress** can help lower heart attack risk.  
+
+✅ **Further Research Needed**:  
+Investigate the impact of **genetic predisposition, diet, and medication use** as additional risk factors.  
+
+✅ **Machine Learning Recommendations**:  
+**Random Forest with SMOTE** is the best-performing model.  
+🚀 **Further hyperparameter tuning** could improve performance and refine predictions.  
+
 
 📌 Next Steps
 🔍 Improve Model Performance: Hyperparameter tuning on Random Forest and ensemble learning.
