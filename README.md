@@ -17,21 +17,17 @@ You can access the materials by clicking
 <img src="https://github.com/user-attachments/assets/43b4979f-ea8a-435c-b2c2-84231939164c" alt="Graph" width="500"/>
 
 
-##📂 Dataset Information
-Dataset Name: female_heart_df2
-Source: [Kaggle] (https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)
+## 📂 Dataset Information
 
-Y = Target Variable: Heart Attack Risk (1 = Yes, 0 = No)
+- **Dataset Name:** `female_heart_df2`
+- **Source:** [Kaggle - Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)
+- **Target Variable:** `Heart Attack Risk` (1 = Yes, 0 = No)
+- **Predictor Variables:**
+  -  **Health Metrics:** Cholesterol, Blood Pressure, Heart Rate, BMI, Triglycerides
+  -  **Lifestyle Factors:** Smoking, Alcohol Consumption, Exercise Hours, Diet, Sleep Hours, Sedentary Hours
+  -  **Medical History:** Diabetes, Previous Heart Problems, Medication Use, Family History
+  -  **Demographics:** Age, Income, Country
 
-X = Predictor Variables:
-
--**Health Metrics:** Cholesterol, Blood Pressure, Heart Rate, BMI, Triglycerides
-
--**Lifestyle Factors:** Smoking, Alcohol Consumption, Exercise Hours, Diet, Sleep Hours, Sedentary Hours
-
--**Medical History:** Diabetes, Previous Heart Problems, Medication Use, Family History
-
--**Demographics:** Age, Income, Country
 
 ##📈 Key Insights from Exploratory Data Analysis (EDA)
 -Seniors (59+) make up 41.25% of the dataset.
