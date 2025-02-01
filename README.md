@@ -10,7 +10,7 @@ You can access the materials by clicking
 
 -[Python Notebook: Exploratory Data Analysis(EDA)](https://github.com/AICarope/Logistic-Regression-and-machine-learning-model-Project/blob/main/Project%20Women%20Heart%20Attack/2_Women_EDA.ipynb)
 
--[Python Notebook: Machine Lerning (ML)](https://github.com/AICarope/Logistic-Regression-and-machine-learning-model-Project/blob/main/Project%20Women%20Heart%20Attack/3_Women_ML.ipynb)
+-[Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-and-machine-learning-model-Project/blob/main/Project%20Women%20Heart%20Attack/3_Women_ML.ipynb)
 
 
 ## 📊 Project Visualization
